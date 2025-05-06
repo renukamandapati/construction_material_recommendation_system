@@ -16,5 +16,5 @@ A Flask-based web application that helps users (core users) get material recomme
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/renumandapati/construction-recommendation-system.git
+git clone https://github.com/renukamandapati/construction-recommendation-system.git
 cd construction-recommendation-system
