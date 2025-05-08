@@ -1,9 +1,9 @@
-DB_HOST = 'localhost'  # Change if your MySQL is hosted elsewhere
-DB_NAME = 'ConstructionDB'  # Your database name
-DB_USER = 'root'  # Your MySQL username (default is 'root')
-DB_PASSWORD = 'root'  # Your MySQL password (change if different)
+DB_HOST = 'sql12.freemysqlhosting.net'  
+DB_NAME = 'sql12777483'  #constructiondb
+DB_USER = 'sql12777483'  
+DB_PASSWORD = 'vrtHKCGYqT' 
 
-SQLALCHEMY_DATABASE_URI = f'mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}'
+SQLALCHEMY_DATABASE_URI = f'mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:3306/{DB_NAME}'
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 # Your generated JWT secret key
